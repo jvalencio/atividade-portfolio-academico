@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #0A0F14;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    height: 30vh;
+    padding: 40px 20px;
+    background-color: #101820;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #155EEF;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+header p {
+    margin: 15px 0 0;
+    padding: 5px 12px;
+    border: 2px solid #155EEF;
+    border-radius: 25px;
+    color: #CBD5E1;
+    font-weight: 500;
+}
+
+main {
+    padding: 70px 20px;
+}
+
+.conteudo-principal {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.introducao {
+    margin: 0 0 60px;
+    color: #94A3B8;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.tecnologias {
+    text-align: center;
+}
+
+.tecnologias h2,
+.experiencia h2 {
+    margin: 0;
+    color: #155EEF;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.tecnologias p {
+    max-width: 650px;
+    margin: 15px auto 45px;
+    color: #94A3B8;
+}
+
+.lista-tecnologias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tecnologia {
+    flex: 1;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #101820;
+    border: 1px solid #1E293B;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.tecnologia h3 {
+    margin: 0 0 12px;
+    color: #60A5FA;
+    font-size: 1.4rem;
+}
+
+.tecnologia p {
+    margin: 0;
+    color: #CBD5E1;
+}
+
+.experiencia {
+    max-width: 800px;
+    margin: 100px auto 0;
+    padding-top: 70px;
+    border-top: 1px solid #1E293B;
+    text-align: center;
+}
+
+.experiencia p {
+    margin: 25px 0 0;
+    color: #CBD5E1;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 25px 20px;
+    background-color: #080C10;
+    border-top: 1px solid #1E293B;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #64748B;
+    font-size: 0.85rem;
+}
